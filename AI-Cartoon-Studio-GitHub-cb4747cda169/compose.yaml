@@ -1,0 +1,68 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile
+    env_file: .env
+    environment:
+      STUDIO_DATA: /app/data
+      STUDIO_SERVER_ENABLED: "true"
+    volumes:
+      - studio-data:/app/data
+      - ./voices:/app/voices:ro
+    restart: unless-stopped
+    expose:
+      - "8000"
+    mem_limit: 256m
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+  production:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile
+    command: ["python", "-m", "studio", "production"]
+    env_file: .env
+    environment:
+      STUDIO_DATA: /app/data
+      STUDIO_SERVER_ENABLED: "true"
+    volumes:
+      - studio-data:/app/data
+      - ./voices:/app/voices:ro
+    restart: unless-stopped
+    mem_limit: 900m
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+  bot:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile
+    command: ["python", "-m", "studio", "bot"]
+    env_file: .env
+    environment:
+      STUDIO_DATA: /app/data
+      STUDIO_SERVER_ENABLED: "true"
+    volumes:
+      - studio-data:/app/data
+    restart: unless-stopped
+    mem_limit: 180m
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+  proxy:
+    image: caddy:2-alpine
+    env_file: .env
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    restart: unless-stopped
+    mem_limit: 128m
+volumes:
+  studio-data:
+  caddy-data:
+  caddy-config:

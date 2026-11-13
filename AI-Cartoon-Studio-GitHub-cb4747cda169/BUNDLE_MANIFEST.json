@@ -1,0 +1,393 @@
+{
+  "version": 1,
+  "files": {
+    ".dockerignore": {
+      "sha256": "de4d4aa4cdfe50febea78fcbf3b09666c8ec3ab3cf06c23c1cf5365e137940f1",
+      "size": 154
+    },
+    ".env.example": {
+      "sha256": "78a8c0134e44f142cba7b1d0c62dcc7516ab75fdc2aa8829497117fe635871af",
+      "size": 3571
+    },
+    ".gitignore": {
+      "sha256": "1babff7901724b034462c1aa8038bdc2b059cbf9299375441b6e0963a3f1a619",
+      "size": 250
+    },
+    "compose.yaml": {
+      "sha256": "6e65cc279766d343a76140cd1385e9b831686966f534f4747b4b0fc04fe91e31",
+      "size": 1694
+    },
+    "deploy/archive_start.py": {
+      "sha256": "4c3c945c5df1d7d5e39e3e8f51fba35947573d2386f8d50e719d1e0eafe18587",
+      "size": 3389
+    },
+    "deploy/bootstrap.py": {
+      "sha256": "794b311223c7cae230a73ccaed8c2542ac22a5208438bf84c497f399f5c02e46",
+      "size": 4694
+    },
+    "deploy/Caddyfile": {
+      "sha256": "1aaaec5f216b50d3670b8dda664a1280b3b5a2377ea04b04789bb0da917f06a3",
+      "size": 332
+    },
+    "deploy/Dockerfile": {
+      "sha256": "235265b655db802966b70b6b4a8c70603afea76d0e1c048ed6bc479e22f6134d",
+      "size": 469
+    },
+    "deploy/start.py": {
+      "sha256": "f67479f3cf1bfb4a1ca836160964bf423f318adf663ffbb1671812e76ffa3b4b",
+      "size": 4758
+    },
+    "deploy/worker_start.cmd": {
+      "sha256": "6f102fdac2de65b7744b9c9246da1d75297c118562ac411dbf68b8402cd6549f",
+      "size": 94
+    },
+    "deploy/worker_start.py": {
+      "sha256": "10d33c057b972fb1e0f1c693a1ac0779cb3dfeba46e9720663c246fcc7c1067c",
+      "size": 1743
+    },
+    "docs/А_ЧТО_ЕСЛИ.md": {
+      "sha256": "f22a97a939145587fc1102d50fb2eaf5ccdfdeb4b6935335ae538510807e2379",
+      "size": 4417
+    },
+    "docs/АРХИТЕКТУРА.md": {
+      "sha256": "6e3f9ecafd6bd03997a4df77fcd4e9d74534318bd957c66687aaec0d87fd8d99",
+      "size": 22901
+    },
+    "docs/БЫСТРЫЙ_ЗАПУСК_VPS.md": {
+      "sha256": "72fa0b85ecbd3b6f4e5d6bd6a08d6c4cc98927c7ca500302cba37e9631e7716f",
+      "size": 8731
+    },
+    "docs/ГОТОВНОСТЬ_БЕЗ_VPS.md": {
+      "sha256": "d7e2cb6d7c5672d8a3b099b5b0a4c92b00db9b73dc5c306664ce2ba4ca59ef25",
+      "size": 7103
+    },
+    "docs/ДИАГНОСТИКА_И_ПЕРЕНОС.md": {
+      "sha256": "e23e293c356b3bebd1953a3eca5bef5853d144379f570b48774ee6bdf3e4c136",
+      "size": 4798
+    },
+    "docs/КРИТИЧЕСКИЕ_СИТУАЦИИ.md": {
+      "sha256": "32bc424539f56ffa82a9364131c16726a3a29adbfbe3aeeb928f99f01f21f582",
+      "size": 9595
+    },
+    "docs/МЕМЫ_TIKTOK.md": {
+      "sha256": "8693393532ef2bf16769bb044b0b8d61d004c50647a3218a54268e33ea672eee",
+      "size": 3566
+    },
+    "docs/ОДНА_КОМАНДА_VPS.md": {
+      "sha256": "82ce0026e71c9cf838d358adf9f29d1b823a69731e598ed5fc1415163a805ede",
+      "size": 6900
+    },
+    "docs/СОСТОЯНИЕ.md": {
+      "sha256": "bde3e2da518e2656fd003eafd323300cab886a43629311af0631a556894f3c14",
+      "size": 17835
+    },
+    "docs/УДОБСТВА_TELEGRAM.md": {
+      "sha256": "3104a5bb3adad54c6c1ea29857c76de33633b8d44c33fb2e256ad2299f3e165a",
+      "size": 4510
+    },
+    "examples/critical_situations/armed_attack.json": {
+      "sha256": "405caa63f014f0cf6473dcc4687d9211e6d32697abd233b0b96e74d0919d83c9",
+      "size": 2367
+    },
+    "examples/critical_situations/nuclear.json": {
+      "sha256": "e2b1f6b59113e652f58e7b0d025562a0c32f6e32a7b0095ab1a6ccc3d00510d6",
+      "size": 2183
+    },
+    "examples/critical_situations/suspicious_object.json": {
+      "sha256": "242fa1a608099b309cb0802efba067fe3140f9fabd6742597d24e7c5682370ef",
+      "size": 2011
+    },
+    "pyproject.toml": {
+      "sha256": "113c7a0a5067b96af4c88d5c36bbe43ac065d76505c0b46f5f1c9bb9dc949774",
+      "size": 811
+    },
+    "README.md": {
+      "sha256": "2f7cda7b366ab4cb5392a74e486d4368a7c3ddfb578825f68e4ea1d496952d54",
+      "size": 22597
+    },
+    "scripts/build_offline_package.py": {
+      "sha256": "0f4775bf2d0e4d00ea8f7b3812687b90655691be30014b6f68bf3c8b5594bb1f",
+      "size": 1900
+    },
+    "scripts/build_vps_bundle.py": {
+      "sha256": "c7777a078269f2520b1dec8d17ef0c4e75aa129f1ce2b7f13f49e1d9f0b38bc2",
+      "size": 448
+    },
+    "scripts/check_ui.py": {
+      "sha256": "373c8cf684936b8e01ace02ed5a9258dcfd1482969dffb10dee216caba9d0890",
+      "size": 7295
+    },
+    "scripts/connect_worker.py": {
+      "sha256": "49580a5bc93351e0580f4376b09b6d430a9cedf9a28188bf0389b5b5e7ec1d7c",
+      "size": 1666
+    },
+    "scripts/install-worker-autostart.ps1": {
+      "sha256": "f74a8ac3b547d9307a4c07e9ca3fdffba46d55baedea0656b56471b231c4aa30",
+      "size": 1313
+    },
+    "scripts/setup.ps1": {
+      "sha256": "60f45792e9c61154bce273b813d3b707c929eae9ed1916c1d51c9c436d242c37",
+      "size": 1333
+    },
+    "scripts/setup_env.py": {
+      "sha256": "169226f305a3a0ec62d58947ac49cd9a8715a10c0457e725a4135d83e1f34304",
+      "size": 992
+    },
+    "studio/__init__.py": {
+      "sha256": "a6ec38c0e55358622de6adf89d401674435fe764116024e7828baa5b1cf17022",
+      "size": 96
+    },
+    "studio/__main__.py": {
+      "sha256": "d12af8e1028cfcf55894f204bf1bab6020dd78d319e0dd13b94acfb6dd599a97",
+      "size": 36
+    },
+    "studio/agents.py": {
+      "sha256": "6c6d12623e9eca34114739b000743050f6382e13c7da74b3598e7dece4c55703",
+      "size": 8401
+    },
+    "studio/analytics.py": {
+      "sha256": "4d1e76bdb85fd28e8b3fa1f437fdff5cc7e70a9063ca2cf09b4a7ca0806ef34c",
+      "size": 2353
+    },
+    "studio/analytics_summary.py": {
+      "sha256": "29625b780868b459abc37a4d57d9303c4d7912ac3a18fd0cfd14d960844233fc",
+      "size": 1647
+    },
+    "studio/animation.py": {
+      "sha256": "b4502c8f6d1ae36ea9d7700055be782db044da98e38ac89ea68cebda4cd512ae",
+      "size": 4602
+    },
+    "studio/api.py": {
+      "sha256": "feaa7c19e99ba7c478bfdff0352e059abaad08ac11ef431ea209cf275632a0c3",
+      "size": 21027
+    },
+    "studio/bot.py": {
+      "sha256": "756e5cb4eece07aa8af765ac2093d17cdd6b1aefc6353dacec1cbe4e52247d93",
+      "size": 22814
+    },
+    "studio/bot_comfort.py": {
+      "sha256": "0b593ec6eae7e1a47f8828d294f9ef5f19090427782dce7a2f26272951693d67",
+      "size": 9385
+    },
+    "studio/character_art.py": {
+      "sha256": "c42878ae4b7f8bfceb1dd8b6b9a8079f43aa73f95a4747b4fab1fdab93854c15",
+      "size": 7915
+    },
+    "studio/cli.py": {
+      "sha256": "a2da426dee0dd67907986d7b62da2c17309150146fd184a1d3344eb0bfde17d9",
+      "size": 2983
+    },
+    "studio/comfort.py": {
+      "sha256": "0c7e62e716c954d1c1bc7b71f1930c5c159bfbe60f2b3997076c0111b98f7b9f",
+      "size": 3886
+    },
+    "studio/config.py": {
+      "sha256": "d3b56e2d63dd0a6e1ddcf42516306601466ff6a47de7f841a1bbeb802c84ee87",
+      "size": 1256
+    },
+    "studio/conversation.py": {
+      "sha256": "c70b3a3575aab94d5afdece2cd59cb4b1f7d2f078781707029eee28e4f958bdc",
+      "size": 6830
+    },
+    "studio/db.py": {
+      "sha256": "c0e1a2e032bc4e5c768bd1f175dd1269d7609f1d5e48a378173be1b1c1411246",
+      "size": 9190
+    },
+    "studio/deployment.py": {
+      "sha256": "dca4068ea5a438b59ddf7e698ae115ff61d0d7ebda59c8dbc4f708c21183e050",
+      "size": 5303
+    },
+    "studio/distribution.py": {
+      "sha256": "5347efaa62c92a6f39d662f73a1348889d8508bdfce15672add34ea2990ee15b",
+      "size": 5756
+    },
+    "studio/emergencies.py": {
+      "sha256": "9b2525b1bbb578bb66ddc9ce51ab39202ace9ac3304afae7f3bd01175b3f75d7",
+      "size": 20141
+    },
+    "studio/imagery.py": {
+      "sha256": "c5eed8e1d93516f8a3f31dd75859993e461b0ae465256e1318e7c1f793af4296",
+      "size": 4003
+    },
+    "studio/media.py": {
+      "sha256": "835ff48bfa3ba23b2fc733941f49c72fd2ce52f3b3a1f18ca6dd33283b6bfb4d",
+      "size": 20382
+    },
+    "studio/memes.py": {
+      "sha256": "79e1cce42698d4d950cd2dfa2712bbb7674ac5e71e178f90e76dd5f8599b15cc",
+      "size": 5205
+    },
+    "studio/platform_analytics.py": {
+      "sha256": "a6eb0670db9841933306cd10aeaa45db2400600462b301dd1a0dab8b5fbbbaf9",
+      "size": 5131
+    },
+    "studio/production.py": {
+      "sha256": "98d838067f6dde28fbe46d4ae1e23f045f6ee5e0dea391cdbb83835f496f1e54",
+      "size": 25212
+    },
+    "studio/publication_plans.py": {
+      "sha256": "a8eba71df944b3386e38257c3d28e1a6defbc738a6cd7f7026bc2bcd686cc6f3",
+      "size": 4640
+    },
+    "studio/publishing.py": {
+      "sha256": "6874036060777b4a9258ab3ace83f34d1dbdf6b101678644929c251dd16be487",
+      "size": 7869
+    },
+    "studio/quality.py": {
+      "sha256": "9158e12e42b9c54b5359c48f4efe809e77986c2f7317a13baf711060d0c21771",
+      "size": 8757
+    },
+    "studio/readiness.py": {
+      "sha256": "19026c6e00ad438a44d2b2b5ff0955245abe070eebc45976101925440a29775a",
+      "size": 13350
+    },
+    "studio/retention.py": {
+      "sha256": "6029b04c782c98a49e5ed59f577876014716b04629ec8d6dad1c569398b15179",
+      "size": 8902
+    },
+    "studio/schemas.py": {
+      "sha256": "0ead86b219cc50a07bdab7640d35a5fcea411dc5d6b8d9d4592bb10a886e1130",
+      "size": 3740
+    },
+    "studio/seed.py": {
+      "sha256": "d642d8490ba5be5f04d2b3424246b870c1f466f3991ebb79914baa8b13d57a37",
+      "size": 793
+    },
+    "studio/server_smoke.py": {
+      "sha256": "54d6d527cdbd40ea503e6369876b2ea5f878cfcac41c2cf0a212374af8c8a873",
+      "size": 2471
+    },
+    "studio/speech.py": {
+      "sha256": "0d6f5f477e3086c716af628595a4034d8a7243044935b56a2aea898d38ff86b6",
+      "size": 1385
+    },
+    "studio/static/app.js": {
+      "sha256": "42df9b3f6237b461fcfd06e9c5389ad496b02d2cd275ddf1b0516e5c23cddad7",
+      "size": 28837
+    },
+    "studio/static/delivery.js": {
+      "sha256": "5f2de6f4d6fdd3938a6cf372573165bd096010cdf3a77a0f36ba398eafa1d53e",
+      "size": 6019
+    },
+    "studio/static/index.html": {
+      "sha256": "e08d22599114cba30c6af0594a3217c96b6f752cc21011418bc1d0268ba3e8f4",
+      "size": 2226
+    },
+    "studio/static/style.css": {
+      "sha256": "3f94c365ef9f44e6f8ab7f0a95fa67b30e29c653ebd02790fd6fdd500aaaeae0",
+      "size": 4291
+    },
+    "studio/story_ideas.py": {
+      "sha256": "5a620d1d9b8984f03f652566554362a11116139f9b01fdfb376fed66e337ed6c",
+      "size": 6388
+    },
+    "studio/subtitles.py": {
+      "sha256": "8654eec25764833903244e9958236de452fea6b2a380a86e51789ee957ddaa55",
+      "size": 4196
+    },
+    "studio/tiktok.py": {
+      "sha256": "ab72815d0a83152d2bc61e8c4296507bfc5402c98d86ba99f231bedce6fffe34",
+      "size": 7110
+    },
+    "studio/trend_sources.py": {
+      "sha256": "508438e1a41db3deadcf36fd7b39976fe7c34ac3809c0d6c5fbd50fb8d3f154c",
+      "size": 3918
+    },
+    "studio/trends.py": {
+      "sha256": "d08fbe49ec422053a844db99e661979f912832fac9facc9296468b0c8c62162c",
+      "size": 4019
+    },
+    "studio/worker.py": {
+      "sha256": "6cde43adafa8c2913c9db672c58bf182d3e0a8b71853fc2150a841940bf6f5fd",
+      "size": 10984
+    },
+    "studio/worker_setup.py": {
+      "sha256": "c2d3857afd905a8dc3b8f95781b63949e6ec49c5cb93a3c8da0d2c33547a16d9",
+      "size": 2868
+    },
+    "tests/test_bootstrap.py": {
+      "sha256": "9d5c1c2e0e5cdeffdbb25c73ba8c8fca095a85a10d7ce4c1873f520877779c9a",
+      "size": 5195
+    },
+    "tests/test_bot.py": {
+      "sha256": "fb3b397cf14cd501ad02f9003c04284bc626534e7caec2d13c2b8c374ee3fd6c",
+      "size": 3062
+    },
+    "tests/test_character_art.py": {
+      "sha256": "78af8bbf688c074d29daa65bde715d6adf9a0b6709266a0d6013e6c0c1528f4e",
+      "size": 4105
+    },
+    "tests/test_cloudflare_route.py": {
+      "sha256": "ffb67d4a73c569c8f696b1c639431730370c93cdef565a4cf7b09e0c1f990722",
+      "size": 1236
+    },
+    "tests/test_comfort.py": {
+      "sha256": "bf0cc3f49834503a2cab7a9e71b8ca2aa7bffe992c98023faf03bb09d00093af",
+      "size": 7825
+    },
+    "tests/test_completion_features.py": {
+      "sha256": "0bfeaf7eda23d20023b9fb1a3d8c4c9ba7a4ef71cc4c08d9de1a0f518d360cb9",
+      "size": 6941
+    },
+    "tests/test_conversation.py": {
+      "sha256": "dbac346661ee687391aa2ce9e0f70adf453bb0873311c10120407ef08e181b05",
+      "size": 2745
+    },
+    "tests/test_core.py": {
+      "sha256": "1ca46ea51c26662e6c37fe2c41a4ff1a97f9e42e526dca11b3aaf578ab1e1b58",
+      "size": 8222
+    },
+    "tests/test_deployment_bundle.py": {
+      "sha256": "a83094f872f486fddb8fefd2fe3718eb7a60a2078819370c592c67c424868133",
+      "size": 5167
+    },
+    "tests/test_emergencies.py": {
+      "sha256": "07d49ab325e11bc1dca647aba87b004bab115da9f775f8dcfebf6475ac6f9258",
+      "size": 8241
+    },
+    "tests/test_emergency_ideas.py": {
+      "sha256": "aaea6d84d1fd8b3bff022ae6aa25ed79713b982c363c605e8ea471ea97278a5e",
+      "size": 2753
+    },
+    "tests/test_media.py": {
+      "sha256": "dbb323e7cbeb67b25c2baefb259325c9eff61027c168a36f7e27973c090d0ac4",
+      "size": 8527
+    },
+    "tests/test_memes.py": {
+      "sha256": "f11e35c70862017f49a02734fd84cb4ce897d7b86ebf8708f2aa3f36571dc027",
+      "size": 3085
+    },
+    "tests/test_new_emergency_topics.py": {
+      "sha256": "f0a94ab9132d16672bdbf58c569d2b1af0d20c5f007346938a4bddc678b7c116",
+      "size": 4485
+    },
+    "tests/test_publishing.py": {
+      "sha256": "1d9401792fb2ffe5bfe01d30d939bbde1cfecd7a1f2c28b9c628dcbaff836093",
+      "size": 2964
+    },
+    "tests/test_quality_delivery.py": {
+      "sha256": "6cc8053b4c4064722bacf567be1a6e2d9486459db90b1f409663bca0c4b6207b",
+      "size": 4371
+    },
+    "tests/test_readiness.py": {
+      "sha256": "2279362b006723ae49fd9a985f6cd2554afc89c9909e495b9a7198c18aa3a438",
+      "size": 4367
+    },
+    "tests/test_startup_plan.py": {
+      "sha256": "1322436c8fdd8224e44a7fd3eb2f57879c2a607da1c6048593ff8a01c5e9095e",
+      "size": 2297
+    },
+    "tests/test_story_ideas.py": {
+      "sha256": "676a7dc1687ed9dc1a2edfcf6e75dc7e3880dfee3f0cd8f8962408d5a655d0ba",
+      "size": 3315
+    },
+    "Запуск.cmd": {
+      "sha256": "b58ac3806c3c0ca2709daef6e23871827e633104abb61cbd7da602d1e5523315",
+      "size": 793
+    },
+    "__main__.py": {
+      "sha256": "4c3c945c5df1d7d5e39e3e8f51fba35947573d2386f8d50e719d1e0eafe18587",
+      "size": 3389
+    }
+  }
+}
